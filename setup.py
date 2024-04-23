@@ -17,4 +17,5 @@ setup(
     ],
     install_requires=required,
     dependency_links=['https://download.pytorch.org/whl/cu113'],
+    include_package_data=True,
 )
